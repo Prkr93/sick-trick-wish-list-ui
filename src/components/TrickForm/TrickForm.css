@@ -1,0 +1,9 @@
+form {
+  background-color: white;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+form > *:not(label) {
+  margin-right: 2em;
+}
