@@ -2,7 +2,7 @@ import './TrickForm.css';
 
 const TrickForm = ({addTrick}) => {
   return (
-    <form >
+    <form>
       <label htmlFor='name'>Trick Name: </label>
       <input type='text' name='name' id='name' required />
       <label htmlFor='stance'>Trick Stance: </label>
@@ -20,7 +20,7 @@ const TrickForm = ({addTrick}) => {
       </select>
       <label htmlFor='tutorial'>Trick Tutorial URL: </label>
       <input type='text' name='tutorial' id='tutorial' required />
-      <input type='submit' value='Submit Trick' onClick={addTrick} />
+      <input className='submit' type='submit' value='Submit Trick' onClick={addTrick} />
     </form>
   )
 }
