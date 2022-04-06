@@ -1,0 +1,19 @@
+.tricks {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.trick {
+  width: 100%;
+  padding: 1em;
+  background-color: white;
+  margin: 1em;
+  box-sizing: border-box;
+}
+
+@media (min-width: 900px) {
+  .trick {
+    width: 30%;
+  }
+}
